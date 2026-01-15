@@ -199,3 +199,31 @@ nav.menu button:active {
   padding: 10px;
   font-size: 18px;
 }
+
+.services-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 40px;
+  margin-left: 20px;
+}
+
+.service-card {
+  height: 260px;
+  border-radius: 14px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.service-card span {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: black;
+}
+
