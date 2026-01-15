@@ -294,4 +294,21 @@ nav.menu button:active {
   background-position: center;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 768px) {
+  .services-wrapper {
+    flex-direction: column;
+  }
 
+  .services-text {
+    width: 100%;
+  }
+
+  .services-images {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .service-image {
+    height: 220px;
+  }
+}
