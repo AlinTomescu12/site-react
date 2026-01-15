@@ -227,3 +227,32 @@ nav.menu button:active {
   color: black;
 }
 
+.services-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding: 40px;
+  margin-left: 20px;
+}
+
+.service-card {
+  height: 280px;
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+}
+
+.service-text {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+  font-weight: bold;
+  padding: 14px;
+  text-align: center;
+  font-size: 18px;
+}
+
