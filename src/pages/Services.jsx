@@ -1,32 +1,35 @@
 function Services() {
   return (
-    <div className="services-page">
-      <div
-        className="service-card"
-        style={{ backgroundImage: "url(/site-react/ict.jpg)" }}
-      >
-        <div className="service-text">Service ICT – 100 €</div>
+    <div className="services-wrapper">
+      {/* STÂNGA – TEXT */}
+      <div className="services-text">
+        <h2>Serviciile noastre</h2>
+        <ul>
+          <li>Service ICT – 100 € / buc</li>
+          <li>Service UBA – 120 €</li>
+          <li>Service MEI – 150 €</li>
+          <li>Service CashCode – preț la cerere</li>
+        </ul>
       </div>
 
-      <div
-        className="service-card"
-        style={{ backgroundImage: "url(/site-react/uba.jpg)" }}
-      >
-        <div className="service-text">Service UBA – 120 €</div>
-      </div>
-
-      <div
-        className="service-card"
-        style={{ backgroundImage: "url(/site-react/mei.jpg)" }}
-      >
-        <div className="service-text">Service MEI – 150 €</div>
-      </div>
-
-      <div
-        className="service-card"
-        style={{ backgroundImage: "url(/site-react/cashcode.jpg)" }}
-      >
-        <div className="service-text">Service CashCode</div>
+      {/* DREAPTA – IMAGINI */}
+      <div className="services-images">
+        <div
+          className="service-image"
+          style={{ backgroundImage: "url(/site-react/ict.jpg)" }}
+        />
+        <div
+          className="service-image"
+          style={{ backgroundImage: "url(/site-react/uba.jpg)" }}
+        />
+        <div
+          className="service-image"
+          style={{ backgroundImage: "url(/site-react/mei.jpg)" }}
+        />
+        <div
+          className="service-image"
+          style={{ backgroundImage: "url(/site-react/cashcode.jpg)" }}
+        />
       </div>
     </div>
   );

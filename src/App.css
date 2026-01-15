@@ -255,4 +255,43 @@ nav.menu button:active {
   text-align: center;
   font-size: 18px;
 }
+.services-wrapper {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+
+.services-text {
+  width: 40%;
+  color: black;
+}
+
+.services-text h2 {
+  margin-bottom: 20px;
+}
+
+.services-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services-text li {
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+
+.services-images {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.service-image {
+  height: 200px;
+  border-radius: 14px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+}
 
